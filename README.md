@@ -1,9 +1,11 @@
-# Astro Theme Foundation
+# Cannonball Splash Page
 
-This is an opinionated foundation for how we like to structure our themes for Astro. Feel free to use it for your own projects if you want to make your own theme. It's unlicensed and ready for you to make the next million dollar theme for Astro.
+This is a template for a modern splash page inspired by [this Framer template](https://coming-soon.framer.website/).
 
 ## Features
 
+- ✅ Modern Design
+- ✅ Email Signup Form
 - ✅ SEO friendly
 - ✅ Modern CSS Reset via Andy Bell
 - ✅ Fluid typography scaling via Utopia
@@ -11,4 +13,4 @@ This is an opinionated foundation for how we like to structure our themes for As
 - ✅ A generic but flexible Button component
 - ✅ Automatic Sitemap
 
-Enjoy!# cannonball
+Enjoy!
