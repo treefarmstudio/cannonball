@@ -25,6 +25,8 @@ const image = new URL(Astro.props.image || './social.png', Astro.site);
 <meta name="title" content={title || settings.title} />
 <meta name="description" content={description || settings.description} />
 <meta name="generator" content={Astro.generator} />
+
+<link rel="preload" href="/assets/images/bg.svg" as="image">
 <!-- settingsmap -->
 <link rel="sitemap" href="/sitemap.xml">
 <!-- Canonical -->
