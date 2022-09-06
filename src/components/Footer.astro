@@ -1,0 +1,33 @@
+---
+import { Icon} from 'astro-icon';
+import { socials} from '../data/socials'
+---
+
+<style>
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+  }
+  .footer__socials {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  .footer__socials li a {
+    display: flex;
+  }
+</style>
+
+<footer>
+  <ul class="footer__socials">
+    {socials.map((social) => (
+      <li class="socal__link">
+        <a href={social.url} target="_blank" rel="noopener noreferrer">
+          <Icon name={social.icon} width="36px" height="36px" />
+        </a>
+      </li>
+    ))}
+  </ul>
+</footer>

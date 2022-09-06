@@ -1,0 +1,103 @@
+:root {
+  /* Colors */
+  --theme-primary: hsl(0, 0%, 5%);
+  --theme-on-primary: hsl(0, 0%, 90%);
+  --theme-primary--hover: #000;
+  --theme-secondary: #ffffff;
+  --theme-on-secondary: #000000;
+  --theme-secondary--hover: #ffffff;
+
+  --theme-background: hsl(0, 0%, 5%);
+  --theme-on-background: hsl(0, 0%, 98%);
+
+  --theme-surface-1: hsl(0, 0%, 92%);
+  --theme-on-surface-1: hsl(0, 0%, 10%);
+
+  /* Typography */
+  /* @link https://utopia.fyi/type/calculator?c=320,20,1.2,1920,28,1.333,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l */
+
+  --step--2: clamp(0.87rem, calc(0.84rem + 0.12vw), 0.99rem);
+  --step--1: clamp(1.04rem, calc(0.99rem + 0.27vw), 1.31rem);
+  --step-0: clamp(1.25rem, calc(1.15rem + 0.50vw), 1.75rem);
+  --step-1: clamp(1.50rem, calc(1.33rem + 0.83vw), 2.33rem);
+  --step-2: clamp(1.80rem, calc(1.54rem + 1.31vw), 3.11rem);
+  --step-3: clamp(2.16rem, calc(1.76rem + 1.98vw), 4.14rem);
+  --step-4: clamp(2.59rem, calc(2.01rem + 2.93vw), 5.53rem);
+  --step-5: clamp(3.11rem, calc(2.26rem + 4.25vw), 7.37rem);
+
+  --font-family-heading: 'Roboto Flex', sans-serif;
+  --font-family-body: 'Open Sans', sans-serif;
+
+  --body-max-width: 1920px;
+
+  /* Container */
+  --container-padding: 0 1rem;
+  --container-max-width: 1440px;
+  --container-max-width-narrow: 960px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0 auto;
+  color: var(--theme-on-background);
+  font-size: var(--step-0);
+  font-family: var(--font-family-body);
+  font-weight: 400;
+  line-height: 1.5;
+  max-width: var(--body-max-width);
+  position: relative;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  background: var(--theme-background) url('/assets/images/bg.svg') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.flow>*+* {
+  margin-top: var(--flow-space, 1em);
+}
+
+a {
+  color: inherit;
+}
+
+/* Typography */
+
+h1 {
+  font-size: var(--step-5);
+  font-family: var(--font-family-heading);
+  font-weight: 600;
+  line-height: 1.2;
+  font-stretch: 125%;
+  font-variation-settings: 'slnt' -4, 'opsz' 25;
+}
+
+h2 {
+  font-size: var(--step-4);
+  font-family: var(--font-family-heading);
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: var(--step-2);
+  font-family: var(--font-family-heading);
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+h4 {
+  font-size: var(--step-1);
+  font-family: var(--font-family-heading);
+}
+
+h1, h2, h3 {
+  max-width: 30ch;
+}
+
+p, li {
+  max-width: 70ch;
+}

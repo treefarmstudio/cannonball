@@ -1,0 +1,37 @@
+---
+import Button from "./Button.astro";
+---
+
+<style>
+  .signup__form {
+    margin: 2rem 0;
+    width: 100%;
+    display: flex;
+    max-width: 600px;
+  }
+
+  input[type='text'],
+  input[type='email'],
+  input[type='date'],
+  input[type='tel'] {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border: 2px solid #ccc;
+    color: #000000;
+    border-radius: 2rem;
+    outline-style: none;
+  }
+
+  input:focus {
+    border: 2px solid#000;
+  }
+
+  .signup__form :global(.btn) {
+    margin-left: 1rem;
+  }
+</style>
+
+<form class="signup__form" action="">
+  <input type="email" placeholder="Email Address" />
+  <Button>Submit</Button>
+</form>

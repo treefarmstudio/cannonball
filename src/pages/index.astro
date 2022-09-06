@@ -1,0 +1,31 @@
+---
+import Layout from '../layouts/Page.astro'
+import Container from '../components/Container.astro';
+import SignupForm from '../components/SignupForm.astro';
+
+const seo = {
+  title: 'Cannonball by Little Sticks | A splash page template',
+  description: 'This is a simple splash page template built with Astro by Little Sticks',
+}
+---
+
+<style>
+  .hero__article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+  }
+</style>
+
+<Layout seo={seo}>
+  <Container narrow>
+    <article class="hero__article">
+      <h1>Coming Soon</h1>
+      <p>Be the first to know when our new site is live!</p>
+      <SignupForm />
+    </article>
+  </Container>
+</Layout>
+
