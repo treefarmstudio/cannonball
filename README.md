@@ -22,7 +22,7 @@ Customize the global site settings such as the title and description in the `src
 Set your own social profile links and icons in the `src/data/socials.ts` file
 
 <p>
-  <a href="https://stackblitz.com/github/littlesticks/cannonball>
+  <a href="https://stackblitz.com/github/littlesticks/cannonball">
   <img src="https://developer.stackblitz.com/img/open_in_stackblitz.svg" height="36px" />
   </a>
 </p>
