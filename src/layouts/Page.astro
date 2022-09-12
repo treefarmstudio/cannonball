@@ -3,6 +3,7 @@ import Layout from './Base.astro';
 import type { Props as BaseHeadProps } from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import FadeIn from '../components/FadeIn.astro';
 
 export interface Props {
 	seo?: BaseHeadProps;
@@ -12,6 +13,10 @@ const { seo } = Astro.props as Props;
 ---
 
 <Layout seo={seo}>
+  <Fragment slot="head-bottom">
+    <!-- This is the global fade-in animation being used -->
+    <FadeIn/>
+  </Fragment>
   <Header slot="header" />
 		<slot />
   <Footer slot="footer" />
