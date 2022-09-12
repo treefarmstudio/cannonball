@@ -1,6 +1,6 @@
 # Cannonball Splash Page
 
-This is a template for a modern splash page inspired by [this Framer template](https://coming-soon.framer.website/).
+This is a template for a modern splash page/coming soon page inspired by [this Framer template](https://coming-soon.framer.website/).
 
 ## Features
 
