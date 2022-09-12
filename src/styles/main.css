@@ -110,7 +110,7 @@ p, li {
   }
 
   .fade-in[data-state=hidden] {
-      transform: translateY(2ex);
+      transform: scale(0.9);
       opacity: 0;
   }
 }
