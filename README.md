@@ -2,7 +2,7 @@
 
 This is a template for a modern splash page/coming soon page inspired by [this Framer template](https://coming-soon.framer.website/).
 
-You can learn more abou this template/theme's creation in [this YouTube video](https://www.youtube.com/watch?v=o58kSpPMuuI)
+You can learn more about this template/theme's creation in [this YouTube video](https://www.youtube.com/watch?v=o58kSpPMuuI)
 
 ## Features
 
