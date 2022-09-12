@@ -2,6 +2,8 @@
 
 This is a template for a modern splash page/coming soon page inspired by [this Framer template](https://coming-soon.framer.website/).
 
+You can learn more abou this template/theme's creation in [this YouTube video](https://www.youtube.com/watch?v=o58kSpPMuuI)
+
 ## Features
 
 - ✅ Modern Design
@@ -13,4 +15,28 @@ This is a template for a modern splash page/coming soon page inspired by [this F
 - ✅ A generic but flexible Button component
 - ✅ Automatic Sitemap
 
-Enjoy!
+## Get Started 
+
+Customize the global site settings such as the title and description in the `src/data/settings.ts` file
+
+Set your own social profile links and icons in the `src/data/socials.ts` file
+
+<p>
+  <a href="https://stackblitz.com/github/littlesticks/cannonball>
+  <img src="https://developer.stackblitz.com/img/open_in_stackblitz.svg" height="36px" />
+  </a>
+</p>
+
+OR
+
+## Local Development
+
+```sh
+npm i && npm start
+```
+
+## Deploy
+
+Deploy this site to your favorite static hosting service using Astro's docs or quickly deploy to Netlify with the button below 
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/littlesticks/cannonball)
